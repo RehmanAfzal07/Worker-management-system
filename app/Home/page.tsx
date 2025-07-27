@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { NextPage } from 'next';
 import { PageType } from '../types/pages';
@@ -17,7 +18,7 @@ const Home: NextPage<HomeProps> = ({ setCurrentPage }) => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center px-4 py-12">
       <img
-        src="/wms.jpeg"  // ✅ Ensure image is in /public folder
+        src="/wms.jpeg"  
         alt="Company Logo"
         className="w-24 h-24 md:w-32 md:h-32 mb-6 animate-fade-in"
       />
